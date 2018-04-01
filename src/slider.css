@@ -1,0 +1,29 @@
+.slider-wrap{
+  position: absolute;
+  left: 0;
+}
+
+.slider-wrap img{
+  width: 200px;
+  height: auto;
+  display: inline-block;
+}
+
+.slider-dots-wrap {
+  position: absolute;
+  bottom: 18px;
+  display: flex;
+  justify-content: center;
+  width: 375px;
+}
+.slider-dot {
+  width: 10px;
+  height: 2px;
+  display: inline-block;
+  background: #fff;
+  opacity: 0.4;
+  margin-right: 4px;
+}
+.slider-dot.slider-dot-selected {
+  opacity: 1;
+}
